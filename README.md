@@ -86,7 +86,7 @@ Cosine Similarity is a measurement that quantifies the similarity between two or
 git clone https://github.com/TechGeek3/Vibebox.git
 ```
 
-- Install all the libraries mentioned in the [requirements.txt](#requirements.txt) file with the command `pip install -r requirements.txt`
+- Install all the libraries mentioned in the `requirements.txt` file with the command `pip install -r requirements.txt`
 - Get your API key from https://www.themoviedb.org/ by:
     1. Create an account
     2. Click on API from left sidebar
@@ -120,10 +120,10 @@ After logging in, user will be redirected to the home page of the application wh
 
 ### Search Movies
 <hr>
-User can search movie details by entering the movie name which also has an **autocomplete** **functionality** and the respective movie poster along with overview, genres and other information will be displayed.
+User can search movie details by entering the movie name which also has an **autocomplete functionality** and the respective movie poster along with overview, genres and other information will be displayed.
 
 <img src="ReadMe\Search.jpg" alt="Search Movie" width="700"/>
-<img src="ReadMe\MovieInfo" alt="MovieInfo" width="700"/>
+<img src="ReadMe\MovieInfo.jpg" alt="MovieInfo" width="700"/>
 
 ### Cast Information
 <hr>
