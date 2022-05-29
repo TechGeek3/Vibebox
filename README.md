@@ -72,7 +72,7 @@ Cosine Similarity is a measurement that quantifies the similarity between two or
 
 ## Prerequisites 
 - Install python from your system if not already installed from https://www.python.org/downloads/ and select it according to your system specifications.
-- TMDB API
+- TMDB API Key
 <hr>
 
 ## Getting Started - Installation
@@ -162,7 +162,6 @@ Finally the user can logout with the option given in the navbar after exploring 
 ## Useful Links
 - [Demo Video]()
 - [Sprint Document](https://www.canva.com/design/DAFB-AJnMBQ/uL28KO6ei2TdPPuK2H_XFA/view?utm_content=DAFB-AJnMBQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-- [Design Document]()
 <br/>[(Back to top)](#table-of-contents)
 <hr>
 
@@ -184,7 +183,7 @@ Finally the user can logout with the option given in the navbar after exploring 
 <hr>
 
 ## Need Help?
-Feel free to drop a mail on palaknj32@gmail.com
+Feel free to drop a mail on palakjn32@gmail.com
 <br/>
 [![Linkedin](https://img.shields.io/badge/Linkedin-Connect-blue)](https://www.linkedin.com/in/palak-jain-234384212/)
 [![Twitter](https://img.shields.io/badge/Twitter-Follow-brightgreen)](https://twitter.com/palakj_03)
