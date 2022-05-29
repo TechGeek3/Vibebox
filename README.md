@@ -8,7 +8,7 @@
 ![API](https://img.shields.io/badge/API-TMDB-fcba03)
 ![Backend](https://img.shields.io/badge/backend-firebase-blueviolet)
 
-Vibebox is a web application developed for Microsoft Engage 2022. As a part of this program, the mentees were provided with three tracks to choose from: Face Recognition, Data Analysis and Algorithms. I chose the algorithms track and developed a movie recommendation system, Vibebox which uses content based filtering algorithm.
+**Vibebox** is a web application developed for Microsoft Engage 2022. As a part of this program, the mentees were provided with three tracks to choose from: Face Recognition, Data Analysis and Algorithms. I chose the algorithms track and developed a movie recommendation system, Vibebox which uses content based filtering algorithm.
 
 <img src="static\vibe.jpg" alt="Banner" height='340' width='1000'/>
 <hr>
@@ -19,7 +19,7 @@ Vibebox is a web application developed for Microsoft Engage 2022. As a part of t
 - [What, How of Recommendation System](#what-how-of-recommendatinone-engine)
 - [Prerequisites](#prerequisites)
 - [Getting started - Installation](#getting-started---installation)
-- [Navigating through App](#navigating-through-app) 
+- [Navigating through Web Application](#navigating-through-web-application) 
 - [Useful links](#useful-links)
 - [Resources used](#resources-used)
 - [Sources of Datasets](#sources-of-datasets)
@@ -50,13 +50,14 @@ Agile methodology is a development strategy being adopted in the software indust
 
 SCRUM is a subset of Agile, a framework for developing software. SCRUM takes advantage of different techniques to achieve goals in Agile. SCRUM promotes an iterative model where the planning is performed on a very short term. The basic time working unit is the sprint. SCRUM teams always reason in sprints and their planning is limited to sprints.
 
-* Sprint 1 (May 04 - May 08): **Sprint Planning and Research** - Started researching about what exactly the recommendation system is, how does it work and what are the different types of recommendation engines. Also, checked which recommendation engine is suitable for suggesting movies.0
+* Sprint 1 (May 04 - May 08): **Sprint Planning and Research** - Started researching about what exactly the recommendation system is, how does it work and what are the different types of recommendation engines. Also, checked which recommendation engine is suitable for suggesting movies.
 
 * Sprint 2 (May 08 - May 12): **Design phase** - Started with building a basic prototype which was a simple machine learning recommendation system. Planned the UI of the website, tech stack for the project and tried incorporating the tips given by mentor.
 
 * Sprint 3 (May 12 - May 25): **Build phase** - Developed the final web application, Vibebox which also had some extra features apart from recommending movies mentioned in [Navigating through App](#navigating-through-app).
 
 * Sprint 4 (May 25 - May 28): **Testing phase** - Started with doing the UI fixes, did some manual testing and also uploaded the project on Github in this phase.
+<br/>[(Back to top)](#table-of-contents)
 <hr>
 
 ## What, How of recommendation engine
@@ -64,15 +65,18 @@ SCRUM is a subset of Agile, a framework for developing software. SCRUM takes adv
 The idea behind Content-based recommendation system is to recommend an item based on a comparison between the content of the items and a user profile. In simple words,one may get recommendation for a movie based on the description of other movies.
 
 ### Similarity Score
-Similarity scoring is equivalent to seeking out points in the multidimensional space that are near enough to each other to potentially represent the same true location. It is a numerical value ranges between zero to one which helps to determine how much two items are similar to each other on a scale of zero to one.
+Similarity scoring is equivalent to seeking out points in the multidimensional space that are near enough to each other to potentially represent the same true location. It is a numerical value ranging between zero to one which helps to determine how much two items are similar to each other on a scale of zero to one.
+
 
 ### Cosine Similarity 
 Cosine Similarity is a measurement that quantifies the similarity between two or more vectors. The cosine similarity is the cosine of the angle between vectors. The vectors are typically non-zero and are within an inner product space. Smaller angle indicates higher cosine similarity.
+<br/>[(Back to top)](#table-of-contents)
 <hr>
 
 ## Prerequisites 
 - Install python from your system if not already installed from https://www.python.org/downloads/ and select it according to your system specifications.
 - TMDB API Key
+<br/>[(Back to top)](#table-of-contents)
 <hr>
 
 ## Getting Started - Installation
@@ -82,7 +86,7 @@ Cosine Similarity is a measurement that quantifies the similarity between two or
 git clone https://github.com/TechGeek3/Vibebox.git
 ```
 
-- Install all the libraries mentioned in the [requirements.txt]() file with the command `pip install -r requirements.txt`
+- Install all the libraries mentioned in the [requirements.txt](#requirements.txt) file with the command `pip install -r requirements.txt`
 - Get your API key from https://www.themoviedb.org/ by:
     1. Create an account
     2. Click on API from left sidebar
@@ -98,7 +102,7 @@ git clone https://github.com/TechGeek3/Vibebox.git
 <br/>[(Back to top)](#table-of-contents)
 <hr>
 
-## Navigating through App
+## Navigating through Web Application
 ### Sign Up & Login
 <hr>
 User should first register by providing the required credentials and then after successful registration, he/she can login with the previously entered details.
@@ -116,9 +120,10 @@ After logging in, user will be redirected to the home page of the application wh
 
 ### Search Movies
 <hr>
-User can search movie details by entering the movie name which also has an **autocomplete functionality** and the respective movie poster along with overview, genres and other information will be displayed.
+User can search movie details by entering the movie name which also has an **autocomplete** **functionality** and the respective movie poster along with overview, genres and other information will be displayed.
 
 <img src="ReadMe\Search.jpg" alt="Search Movie" width="700"/>
+<img src="ReadMe\MovieInfo" alt="MovieInfo" width="700"/>
 
 ### Cast Information
 <hr>
@@ -160,7 +165,7 @@ Finally the user can logout with the option given in the navbar after exploring 
 <hr>
 
 ## Useful Links
-- [Demo Video]()
+- [Demo Video](https://www.canva.com/design/DAFCFVvUgOE/b5JXsAIXUsclQRAjzTKiTg/watch?utm_content=DAFCFVvUgOE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 - [Sprint Document](https://www.canva.com/design/DAFB-AJnMBQ/uL28KO6ei2TdPPuK2H_XFA/view?utm_content=DAFB-AJnMBQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 <br/>[(Back to top)](#table-of-contents)
 <hr>
