@@ -71,7 +71,8 @@ Cosine Similarity is a measurement that quantifies the similarity between two or
 <hr>
 
 ## Prerequisites 
-Install python from your system if not already installed from https://www.python.org/downloads/ and select it according to your system specifications.
+- Install python from your system if not already installed from https://www.python.org/downloads/ and select it according to your system specifications.
+- TMDB API
 <hr>
 
 ## Getting Started - Installation
