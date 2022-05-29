@@ -120,7 +120,7 @@ After logging in, user will be redirected to the home page of the application wh
 
 ### Search Movies
 <hr>
-User can search movie details by entering the movie name which also has an **autocomplete functionality** and the respective movie poster along with overview, genres and other information will be displayed.
+User can search movie details by entering the movie name which also has an autocomplete functionality and the respective movie poster along with overview, genres and other information will be displayed.
 
 <img src="ReadMe\Search.jpg" alt="Search Movie" width="700"/>
 <img src="ReadMe\MovieInfo.jpg" alt="MovieInfo" width="700"/>
